@@ -1,0 +1,10 @@
+Na versão por valor, a função aceita somente uma cópia da variável, 
+Portanto, mudanças feitas dentro da função não impactam a variável original. Na versão referenciada, 
+a função modifica o conteúdo da variável diretamente, utilizando seu endereço.
+
+Na versão por referência, o valor da variável só muda porque estamos alterando 
+o espaço de memória da variável original, em vez de criar uma cópia.
+
+Essa variação mostra como as estratégias de passagem de parâmetros afetam o comportamento
+das funções: por valor é melhor para manter a variável original inalterada. Por referência 
+possibilita a manipulação direta do dado original.

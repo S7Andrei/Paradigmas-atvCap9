@@ -1,0 +1,5 @@
+As mensagens da corrotina e da função normal se misturam, pois a corrotina 
+ocorre simultaneamente com o fluxo principal. O Go alterna entre elas automaticamente, então a saída fica intercalada.
+
+Várias funções podem rodar “juntas” no mesmo programa 
+sem precisar criar threads separadas, permitindo que o código continue fluindo.
